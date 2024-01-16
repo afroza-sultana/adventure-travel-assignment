@@ -255,6 +255,29 @@ background: rgba(41, 206, 246, 0.05);
 border: 1px solid rgba(233, 68, 68, 0.20);
 background: rgba(233, 68, 68, 0.05);
 }
+/* ratings-section  */
+.ratings-section{
+background-image: url(../Images/image-7.jpg);
+padding: 410px 40px 40px;
+border-radius: 16px;
+margin-bottom: 100px;
+}
+.ratings-section h2, p{
+    color: white;
+    margin-bottom: 30px;
+}
+.ratings-container{
+    display: flex;
+}
+.ratings h2{
+    font-size: 50px;
+}
+.ratings p{
+    font-size: 20px;
+    font-weight: 700;
+    padding-right: 30px;
+    
+}
 /* Newsletter section */
 .section-container{
     display: flex;

@@ -35,6 +35,9 @@
     #price-guarantee{
     width: 446px; 
     }
+    .ratings-section{
+        margin: 0 20px 100px;
+        }
     /* Newsletter section */
 .section-container{
     margin: 0 20px 100px;
@@ -174,6 +177,21 @@ height: 48px;
 #choose-item-3{
     display: block;
 }
+.ratings-section{
+    background-image: url(../Images/image-7.jpg);
+    padding: 110px 40px 40px;
+    border-radius: 16px;
+    margin-bottom: 100px;
+    }
+    .ratings h2{
+        font-size: 20px;
+    }
+    .ratings p{
+        font-size: 10px;
+        font-weight: 400;
+        padding-right: 30px;
+        
+    }
 /* Newsletter section */
 .section-container{
     flex-direction: column;
