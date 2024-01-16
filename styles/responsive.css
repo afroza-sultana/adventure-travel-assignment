@@ -29,7 +29,12 @@
     .image-container img{
         height: 250px;
     }
-   
+    .choose-item-container{
+        margin: 0 20px;
+    }
+    #price-guarantee{
+    width: 446px; 
+    }
 }
 
 
@@ -118,6 +123,47 @@
 .center-text{
     font-size: 20px;
     font-weight: 700;
+}
+/* Why Choose Us section  */
+.destination-container{
+    margin-bottom: 24px;
+}
+.choose-item-container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    
+}
+.choose-item{
+    width: 80%;
+height: 250px;
+margin:0 20px;
+padding: 0 0px 32px  32px;
+}
+.choose-item img{
+    width: 48px;
+height: 48px;
+}
+.choose-item h2{
+    font-size: 20px;
+}
+.choose-item p{
+    font-size: 14px;
+    padding: 16px 0 32px;
+    margin: 0;
+}
+.price-guarantee-container{
+    margin-top: 16px;
+}
+#price-guarantee{
+    width: 80%;
+    height: 250px;
+    display: none;
+
+}
+#choose-item-3{
+    display: block;
 }
 /* footer section  */
 footer{
