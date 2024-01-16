@@ -1,0 +1,136 @@
+/*--------------------------
+        for desktop/laptop 
+-----------------------------*/
+@media screen and (min-width:992px) and (max-width:1170px) {
+    /* nav section  */
+    nav{
+        margin: 20px;
+    }
+    .nav-title{
+        font-size: 30px;
+    }
+    .nav-items a{
+        margin-left: 25px;
+    }
+    /* banner section  */
+    .banner-section{
+        margin:50px 20px 100px;
+    }
+    .search-field input{
+        width: 110px;
+    }
+    .popular-tours-section{
+        margin: 0 20px 100px;
+    }
+    /* Choose Your Destination section */
+    .image-container{
+        margin: 0 20px 24px ;
+    }
+    .image-container img{
+        height: 250px;
+    }
+   
+}
+
+
+/*--------------------------------
+         for mobile device 
+---------------------------------*/
+@media screen and (max-width:600px) {
+    nav{
+        margin: 20px;
+    }
+    .menu{
+        display: block;
+    }
+    .nav-items{
+        display: none;
+    }
+    .nav-title{
+        font-size: 21px;
+    }
+    .nav-title img{
+        width: 28px;
+    }
+    /* banner section  */
+    .banner-section{
+        margin: 20px 20px 24px ;
+        background-position: center;
+    }
+    .banner-section h1{
+        font-size: 22px;   
+    }
+    .banner-section p{
+        font-size: 14px;
+        line-height: 21px;
+        padding: 20px;
+    }
+    .input-container{
+        flex-direction: column;
+    }
+    .button{
+        background: #FF5400;
+        padding-right: 30px;
+        border-radius: 8px;
+    }
+    .button button{
+        margin-left: 60px;
+    }
+    .fa-magnifying-glass{
+        left: 32%;
+    }
+    /* Our Popular Tours section */
+    .popular-tours-section{
+        flex-direction: column;
+        margin: 0 20px;
+    }
+    .popular-des-container{
+        width: 100%;
+        
+    }
+    .section-title{
+        font-size: 20px;
+        margin-bottom: 16px;
+    }
+    .description{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .popular-des-container p{
+        margin-bottom: 16px;
+    }
+    .popular-tours-section {
+        margin-bottom: 24px;
+    }
+    /* Choose Your Destination section */
+.destination-container p {
+    margin-bottom: 16px;
+    padding: 0 40px;
+}
+.image-container{
+    flex-direction: column;
+    margin: 0 20px 16px;
+    gap: 16px;
+}
+#image-3, #image-4, #image-5, #image-6, #image-7{
+    width: 100%;
+}
+.center-text{
+    font-size: 20px;
+    font-weight: 700;
+}
+/* footer section  */
+footer{
+    padding: 31px 0;
+}
+.footer-container p{
+    padding:16px 44px;
+    margin: 0;
+}
+.footer-container .footer-icon{
+    margin-bottom: 24px;
+ }
+.hr{
+    width: 300px;
+}
+}

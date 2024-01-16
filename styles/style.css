@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900;1000&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+    header, main{
+        font-family: 'Mulish', sans-serif;
+        max-width: 1170px;
+        margin: 0 auto;
+    }
+    /* shared common styles */
+    .primary-color{
+        color: #FF5400;
+    }
+    .section-title{
+        color: #131318;
+        font-size: 40px;
+        font-weight: 800;
+        margin-bottom: 24px;
+    }
+    .description{
+        color: rgba(19, 19, 24, 0.70);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+    }
+    /* nav section  */
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .nav-title{
+        font-size: 36px;
+        font-weight: 800;
+        display: flex;
+        align-items: center;
+    }
+    .nav-title img{
+        margin-right: 16px;
+    }
+    .nav-items a{
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 400;
+        color: #424247;
+        margin-left: 44px;
+    }
+    #nav-home{
+        color: #FF5400;
+        font-weight: 700;
+    }
+    .menu{
+        display: none;
+    }
+    /* top banner section */
+    .banner-section{
+        background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+        background-size: cover;
+        border-radius: 16px;
+        margin: 50px 0 100px 0;
+    }
+    .banner{
+        border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    padding: 106px 10px;
+    }
+    .banner-section h1{
+        color: #FFF;
+        font-size: 64px;
+        font-weight: 800;
+        text-align: center;
+        margin: 0;
+    }
+    .banner-section p{
+        color: #FFF;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        padding: 24px 0 48px 0;
+    }
+    .search-container{
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+        margin: 20px;
+    }
+    .input-container{
+        display: flex;
+        gap: 24px;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.30);
+        padding: 16px;
+    }
+    .search-field {
+        color: rgba(19, 19, 24, 0.50);
+        background-color: white;
+        position: relative;
+        border-radius: 8px;
+    }
+    .search-field input, button{
+        font-size: 16px;
+        font-weight: 400;
+        padding: 16px;
+        border: none;
+        border-radius: 8px;
+    }
+    .fa-chevron-down{
+        position: absolute;
+        top: 35%;
+        right: 10%;
+    }
+    .button{
+        position: relative;
+    }
+    .button button{
+        color: #FFF;
+        font-weight: 700;
+        background: #FF5400;
+        width: 174px;
+        text-align: right;
+        padding-right: 40px;
+    }
+    .fa-magnifying-glass{
+        position: absolute;
+        top: 33%;
+        left: 20%;
+        color: white;
+    }
+    /* Our Popular Tours section */
+    .popular-tours-section{
+        display: flex;
+        margin: 0 0 100px;
+        gap: 30px;
+    }
+    .popular-des-container{
+        width: 60%;
+    }
+    .popular-des-container p{
+        margin-bottom: 24px;
+    }
+    .popular-des-container li{
+        margin:0 0 16px 16px;
+    }
+    .popular-img img{
+        width: 100%;
+    }
+    .read-more-btn{
+        color: #FFF;
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+        background: #FF5400;
+        padding: 13px 34px;
+}
+/* Choose Your Destination section  */
+.destination-container{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.destination-container p{
+    margin-bottom: 48px;
+}
+.image-container{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+.image-container div{
+    width: 100%;
+}
+.image-container img{
+    width: 100%;
+    height: 286px;
+}
+#image-3{
+    width: 30%;
+}
+#image-4{
+    width: 45%;
+}
+#image-5{
+    width:25%;
+}
+#image-6{
+    width:40%;
+}
+#image-7{
+    width:60%;
+}
+.center-text-position{
+    position: relative;
+}
+.center-text{
+    position: absolute;
+    top: 45%;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+/* footer section  */
+footer{
+    background: rgba(19, 19, 24, 0.05);
+    padding: 110px 0;
+}
+.footer-container p{
+    text-align: center;
+    margin: 15px 0 32px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    font-family: 'Mulish', sans-serif;
+}
+#footer-title{
+    font-size: 32px;  
+}
+.footer-container .footer-icon{
+   display: flex;
+   justify-content: center;
+   margin-bottom: 50px;
+}
+.hr{
+    width: 872px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+#copyright{
+    margin: 0;
+}
