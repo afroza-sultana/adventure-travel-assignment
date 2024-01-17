@@ -35,9 +35,8 @@
     #price-guarantee{
     width: 446px; 
     }
-    .ratings-section{
-        margin: 0 20px 100px;
-        }
+    /* TRAVEL SPECIALISTS section */
+
     /* Newsletter section */
 .section-container{
     margin: 0 20px 100px;
@@ -47,8 +46,6 @@
     left: 48%;   
 }
 }
-
-
 /*--------------------------------
          for mobile device 
 ---------------------------------*/
@@ -177,21 +174,49 @@ height: 48px;
 #choose-item-3{
     display: block;
 }
-.ratings-section{
-    background-image: url(../Images/image-7.jpg);
-    padding: 110px 40px 40px;
-    border-radius: 16px;
-    margin-bottom: 100px;
-    }
-    .ratings h2{
-        font-size: 20px;
-    }
-    .ratings p{
-        font-size: 10px;
-        font-weight: 400;
-        padding-right: 30px;
-        
-    }
+/* TRAVEL SPECIALISTS section */
+.specialists{
+    padding: 0 20px;
+}
+.specialists-container-1 h5{
+    padding-top: 50px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    font-weight: 800;
+
+}
+.specialists-container-2>.specialists-item{
+    margin-left: 0;
+    border-radius: 16px ;
+}
+.specialists-item{
+    width: 100%;
+    border-radius: 16px ;
+}
+.specialists-container-1 h6{
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+.specialists-container-1 button{
+    margin-bottom: 50px;
+}
+.specialists-container-2 h5{
+    padding-top: 50px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    font-weight: 800;
+
+}
+.specialists-container-2 h6{
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+.specialists-container-2 button{
+    margin-bottom: 50px;
+}
+.specialists-container-2{
+    margin-top: 20px;
+}
 /* Newsletter section */
 .section-container{
     flex-direction: column;
@@ -243,7 +268,7 @@ height: 48px;
     top: 60%;
 }
 .newslatter-item-2 p{
-    padding-top: 4px;
+    padding-top: 15px;
     font-size: 70%;
 }
 .newslatter-item-2 h4{

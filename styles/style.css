@@ -255,29 +255,86 @@ background: rgba(41, 206, 246, 0.05);
 border: 1px solid rgba(233, 68, 68, 0.20);
 background: rgba(233, 68, 68, 0.05);
 }
-/* ratings-section  */
-.ratings-section{
-background-image: url(../Images/image-7.jpg);
-padding: 410px 40px 40px;
-border-radius: 16px;
-margin-bottom: 100px;
+/* TRAVEL SPECIALISTS section */
+.specialists-container-1{
+    background-image: url(../Images/image-8.jpg);
+    background-position: right;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    border-radius: 16px;
 }
-.ratings-section h2, p{
+.specialists-container-1 h5{
     color: white;
-    margin-bottom: 30px;
+    padding-top: 110px;
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: 900;
+
 }
-.ratings-container{
-    display: flex;
+.specialists-container-1 h6{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 14px;
+    padding: 20px;
 }
-.ratings h2{
-    font-size: 50px;
+.specialists-container-1 button{
+    font-size: 16px;
+        font-weight: 700;
+        padding: 16px;
+        border: none;
+        border-radius: 8px;
+        color: #FFF;
+        background-color: #FF5400;
+        
+        margin-bottom: 100px;
 }
-.ratings p{
-    font-size: 20px;
-    font-weight: 700;
-    padding-right: 30px;
+.specialists-container-2{
+    background-image: url(../Images/image-7.jpg);
+    background-position: left;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    border-radius: 16px;
+    
     
 }
+.specialists-container-2>.specialists-item{
+    margin-left: 50%;
+    border-radius:0 16px 16px 0;
+}
+.specialists-container-2 h5{
+    color: white;
+    padding-top: 110px;
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: 900;
+
+}
+.specialists-container-2 h6{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 14px;
+    padding: 20px;
+}
+.specialists-container-2 button{
+    font-size: 16px;
+        font-weight: 700;
+        padding: 16px;
+        border: none;
+        border-radius: 8px;
+        color: #FFF;
+        background-color: #FF5400;
+        
+        margin-bottom: 100px;
+}
+.specialists-item{
+    width: 50%;
+    background-color: #5a5a5da4;
+    border-radius: 16px 0 0 16px;
+}
+
 /* Newsletter section */
 .section-container{
     display: flex;
@@ -352,7 +409,6 @@ margin-bottom: 100px;
     text-align: center;
     font-size: 120%;
     font-weight: 400;
-    margin-bottom: 0;
 }
 .newslatter-item-2 h4{
     color: #FFF;
